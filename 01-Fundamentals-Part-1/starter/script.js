@@ -26,3 +26,9 @@ if (markHigherBMI) {
 } else {
     console.log(`John's BMI(${johnBMI}) is higher than Marks(${markBMI})!`);
 }
+
+/////////// CODING CHALLENGE 4
+const bill = 275;
+const tip = bill >= 50 && bill <= 300 ? 15 : 20;
+const total = bill + bill * tip / 100;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${total}`);
